@@ -2,16 +2,17 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-	int number,i;
+	//variable
+	int i,somme; 
 int main(int argc, char *argv[]) {
-	
-	printf("Enter the number: ");
-	scanf("%d",&number);
-	
-	printf("The first 10 multiple of %d are :\n",number);
-	for(i=1;i<=10;i++){
-		printf("%d \n",number * i);
+	//initialization
+	somme = 0;
+	 
+	for(i=2;i<100;i+=3){//i = i + 3
+		somme += i;
 	}
+	
+	printf("la somme des nombres est : %d",somme);
 	
 	return 0;
 }
