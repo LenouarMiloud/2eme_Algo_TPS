@@ -7,7 +7,7 @@
 int main(int argc, char *argv[]) {
 	//initialization
 	somme = 0;
-	 
+	//here we jump by 3 step  
 	for(i=2;i<100;i+=3){//i = i + 3
 		somme += i;
 	}

@@ -5,14 +5,15 @@
  int table[10];
  int i,max,min;
 int main(int argc, char *argv[]) {	
-	
+	//read the array 
 	for (i=0;i<10;i++){
 		printf("Number %d :",i);
 		scanf("%d",&table[i]);
 	}
+	//suggest that the first case is the min and the max one
 	min = table[0];
 	max = table[0];
-	
+	//find the min and the max and the min in the array 
 	for(i=1;i<10;i++){
 		if(table[i]<min)
 			min = table[i];
