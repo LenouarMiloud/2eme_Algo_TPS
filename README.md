@@ -1,2 +1,4 @@
-# 2eme_Algo_TPS
-this repository will contain algorithm exercices of 2nd year of computer science 
+# 2eme_Algo_TPS :student: :smiley:
+this repository will contain solutions of algorithm exercices 
+
+:computer: by Using the C Programming language :computer:
